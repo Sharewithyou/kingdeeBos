@@ -15,7 +15,7 @@ h1 , h2{
 
 /* 控制顶级目录加粗 */
 .book-summary ul.summary li span {
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 /* 控制目录字体样式 */
