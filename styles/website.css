@@ -37,3 +37,7 @@ h1 , h2{
     font-family: cursive;
     font-size: 18px;
 }
+
+.book .book-summary .exc-trigger:before{
+    font-size:12px;
+}
