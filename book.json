@@ -5,5 +5,9 @@
         "pdf": "pdf.css",
         "mobi": "mobi.css",
         "epub": "epub.css"
+    },
+    "plugins": ["folding-chapters"],
+    "pluginsConfig": {
+        
     }
 }
