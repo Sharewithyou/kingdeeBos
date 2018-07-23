@@ -1,0 +1,39 @@
+/* 控制内容宽度 */
+.page-inner {
+    max-width: 1499px;
+}
+
+/* 控制标题下划线 */
+h1 , h2{
+    border-bottom: 1px solid #EFEAEA;
+}
+
+/* 控制目录字体颜色 */
+.book-summary ul.summary li a, .book-summary ul.summary li span{
+    color: #666;
+}
+
+/* 控制顶级目录加粗 */
+.book-summary ul.summary li span {
+    font-weight: 700;
+}
+
+/* 控制目录字体样式 */
+.book-summary{
+    font-family: Microsoft YaHei;
+}
+
+/* 控制代码块中文字体样式 */
+.markdown-section code, .markdown-section pre{
+    font-family: Consolas,Microsoft YaHei;
+}
+
+/* 控制加粗变红样式 */
+.markdown-section strong{
+    color: #666;
+}
+
+.markdown-section p{
+    font-family: cursive;
+    font-size: 18px;
+}
