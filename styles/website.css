@@ -33,11 +33,24 @@ h1 , h2{
     color: #666;
 }
 
+
+
 .markdown-section p{
     font-family: cursive;
     font-size: 18px;
 }
 
+/* 目录小三角 */
 .book .book-summary .exc-trigger:before{
     font-size:12px;
+}
+
+
+/* 小标题加粗 */
+blockquote p {
+    font-weight: 700;
+}
+
+li.chapter[data-level="1.1"]{
+    font-weight: 700;
 }
