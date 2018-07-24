@@ -1,6 +1,6 @@
 /* 控制内容宽度 */
 .page-inner {
-    max-width: 1499px;
+    max-width: 1300px;
 }
 
 /* 控制标题下划线 */
@@ -51,6 +51,7 @@ blockquote p {
     font-weight: 700;
 }
 
-li.chapter[data-level="1.1"]{
+/* 目录加粗 */
+li.chapter[data-level="1.1"],li.chapter[data-level="1.2"]，li.chapter[data-level="1.5"],li.chapter[data-level="1.8"],li.chapter[data-level="1.11"]{
     font-weight: 700;
 }
