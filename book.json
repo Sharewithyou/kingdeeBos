@@ -6,8 +6,15 @@
         "mobi": "mobi.css",
         "epub": "epub.css"
     },
-    "plugins": ["folding-chapters"],
+    "plugins": ["folding-chapters","prism", "-highlight"],
     "pluginsConfig": {
-        
+        "prism": {
+            "css": [
+              "prismjs/themes/prism-solarizedlight.css"
+            ]
+          },
+          "lang": {
+            "flow": "C#"
+          }
     }
 }
