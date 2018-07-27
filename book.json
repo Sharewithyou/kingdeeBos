@@ -6,11 +6,11 @@
         "mobi": "mobi.css",
         "epub": "epub.css"
     },
-    "plugins": ["folding-chapters","prism", "-highlight","book-summary-scroll-position-saver"],
+    "plugins": ["folding-chapters","prism","prism-themes", "-highlight","book-summary-scroll-position-saver"],
     "pluginsConfig": {
         "prism": {
             "css": [
-              "prismjs/themes/prism-solarizedlight.css"
+              "prism-themes/themes/prism-atom-dark.css"
             ]
           },
           "lang": {
