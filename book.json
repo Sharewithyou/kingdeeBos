@@ -6,7 +6,7 @@
         "mobi": "mobi.css",
         "epub": "epub.css"
     },
-    "plugins": ["folding-chapters","prism", "-highlight"],
+    "plugins": ["folding-chapters","prism", "-highlight","book-summary-scroll-position-saver"],
     "pluginsConfig": {
         "prism": {
             "css": [
